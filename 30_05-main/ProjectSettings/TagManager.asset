@@ -9,6 +9,9 @@ TagManager:
   - cruz
   - plat
   - jugador
+  - TriggerNextScene
+  - Character
+  - Mummy
   layers:
   - Default
   - TransparentFX

@@ -8,7 +8,7 @@ public class SceneManage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        SceneManager.LoadScene("Outside", LoadSceneMode.Additive);
     }
 
     // Update is called once per frame
@@ -45,6 +45,20 @@ public class SceneManage : MonoBehaviour
 
         }
 
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            Scene scene = SceneManager.GetSceneByName("Puzzle");
+            if (scene.isLoaded)
+            {
+                SceneManager.UnloadScene("Puzzle");
+            }
+            else
+            {
+                SceneManager.LoadScene("Puzzle", LoadSceneMode.Additive);
+            }
+
+        }
+
         if (Input.GetKeyDown(KeyCode.Alpha4))
         {
             
@@ -74,16 +88,16 @@ public class SceneManage : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        if (Input.GetKeyDown(KeyCode.Alpha6))
         {
-            Scene scene = SceneManager.GetSceneByName("Puzzle");
+            Scene scene = SceneManager.GetSceneByName("Get_Out");
             if (scene.isLoaded)
             {
-                SceneManager.UnloadScene("Puzzle");
+                SceneManager.UnloadScene("Get_Out");
             }
             else
             {
-                SceneManager.LoadScene("Puzzle", LoadSceneMode.Additive);
+                SceneManager.LoadScene("Get_Out", LoadSceneMode.Additive);
             }
 
         }

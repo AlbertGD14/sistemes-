@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Platform.unity
     guid: a6d8892932f6bde4aa8da4adc1cc282d
+  - enabled: 1
+    path: Assets/Scenes/Get_Out.unity
+    guid: f74bc9f75bd001c42935a32acd10b03e
   m_configObjects: {}

@@ -31,13 +31,4 @@ public class CharacterMovementOutside : MonoBehaviour
         // Play the walking animation
         animator.SetFloat("Speed", speed);
     }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("TriggerNextScene"))
-        {
-            SceneManager.UnloadSceneAsync("Outside");
-            SceneManager.LoadScene("Corridor_Scene", LoadSceneMode.Additive);
-        }
-    }
 }
