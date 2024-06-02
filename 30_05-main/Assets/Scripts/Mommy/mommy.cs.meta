@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3283bd99432a684419ee654d7d6e0b1e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - revealClip1: {fileID: 8300000, guid: 3b64bbcc5b5aa2c45a9b5fd982b2ca94, type: 3}
+  - appearClip2: {fileID: 8300000, guid: f113e02bdba32cf419f6b33cffd332a1, type: 3}
+  - mommyModel: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
