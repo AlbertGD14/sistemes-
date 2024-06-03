@@ -942,7 +942,7 @@ PrefabInstance:
     - target: {fileID: -1504981713932161579, guid: 511ae3cff5b97bb46a037e013d2a228b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 020dbed5ca4e2194894fa153d8a6b5a0, type: 2}
+      objectReference: {fileID: 2100000, guid: 88b2fd624175627428fa1c02faf1b34e, type: 2}
     - target: {fileID: 100000, guid: 511ae3cff5b97bb46a037e013d2a228b, type: 3}
       propertyPath: m_Name
       value: scarpa_lowFBX
@@ -2613,8 +2613,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2645,8 +2643,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014398
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2677,8 +2673,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014400
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2709,8 +2703,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014402
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2741,8 +2733,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014404
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2773,8 +2763,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014406
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2805,8 +2793,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2837,8 +2823,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014410
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2869,8 +2853,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2901,8 +2883,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014414
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2933,8 +2913,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014416
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2965,8 +2943,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014418
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2997,8 +2973,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014420
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3029,8 +3003,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014422
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3061,8 +3033,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014424
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3093,8 +3063,6 @@ MonoBehaviour:
   initialBlinkFrequency: 1
   finalBlinkFrequency: 0.1
   blackTurnClip: {fileID: 8300000, guid: 6b9a3a8afcb17fe4894f1ca3964b20de, type: 3}
-  stage2Audio: {fileID: 0}
-  finalAudio: {fileID: 0}
 --- !u!65 &344014426
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3701,8 +3669,9 @@ GameObject:
   - component: {fileID: 520713537}
   - component: {fileID: 520713541}
   - component: {fileID: 520713540}
+  - component: {fileID: 520713539}
   m_Layer: 0
-  m_Name: botts player 1
+  m_Name: botts player 1 (green)
   m_TagString: jugador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3737,6 +3706,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &520713539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520713536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd57270ac3a2fb24faba0b2b8c5976ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loseLifeSound1: {fileID: 8300000, guid: 9bc041b6af8c78b4f83f028e83dce51e, type: 3}
+  loseLifeSound2: {fileID: 8300000, guid: c993676e8c9e74a49a2061f9e153d1ce, type: 3}
+  loseLifeSound12: {fileID: 0}
 --- !u!54 &520713540
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6413,13 +6397,29 @@ GameObject:
   - component: {fileID: 1395128723}
   - component: {fileID: 1395128722}
   - component: {fileID: 1395128721}
+  - component: {fileID: 1395128720}
   m_Layer: 0
-  m_Name: botts player 2
+  m_Name: botts player 2 (Blue)
   m_TagString: jugador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1395128720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395128719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd57270ac3a2fb24faba0b2b8c5976ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loseLifeSound1: {fileID: 8300000, guid: 8bbeff664b38fff4c9b2f2d49eaa10b5, type: 3}
+  loseLifeSound2: {fileID: 8300000, guid: aef324a4c0ae71545bd08c6d7670c1f8, type: 3}
+  loseLifeSound12: {fileID: 0}
 --- !u!54 &1395128721
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6706,7 +6706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bb442334999fb84487442a2b692a37f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  q: {x: 0, y: 0, z: 0, w: 0}
+  q: {x: 0, y: 0, z: 0, w: 1}
   manual: 0
 --- !u!1 &1448092806
 GameObject:
@@ -8377,6 +8377,10 @@ MonoBehaviour:
   stage2Audio: {fileID: 8300000, guid: 055325c884c55014ab8197961fecebcc, type: 3}
   finalAudio: {fileID: 8300000, guid: 1f40a46bac36ff24b99dddd36b53df4c, type: 3}
   shakeBlinkBackgroundAudio: {fileID: 8300000, guid: 2f469aca53ae49740bd7d43a323fccad, type: 3}
+  boot1: {fileID: 520713536}
+  boot2: {fileID: 1395128719}
+  spawnPoints1: []
+  spawnPoints2: []
 --- !u!1001 &1647179924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8387,7 +8391,7 @@ PrefabInstance:
     - target: {fileID: -1504981713932161579, guid: 511ae3cff5b97bb46a037e013d2a228b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 020dbed5ca4e2194894fa153d8a6b5a0, type: 2}
+      objectReference: {fileID: 2100000, guid: 2d329a044b4f9264daf4a05adaec344c, type: 2}
     - target: {fileID: 100000, guid: 511ae3cff5b97bb46a037e013d2a228b, type: 3}
       propertyPath: m_Name
       value: scarpa_lowFBX
@@ -8780,6 +8784,7 @@ GameObject:
   - component: {fileID: 1865111052}
   - component: {fileID: 1865111051}
   - component: {fileID: 1865111054}
+  - component: {fileID: 1865111050}
   m_Layer: 0
   m_Name: Player3
   m_TagString: Player
@@ -8787,6 +8792,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1865111050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865111049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a463e68b88d61b42a3bbc49ec279af2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1: {fileID: 0}
+  player2: {fileID: 0}
+  loseLifeSound1: {fileID: 0}
+  loseLifeSound2: {fileID: 0}
+  loseLifeSound12: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!23 &1865111051
 MeshRenderer:
   m_ObjectHideFlags: 0
