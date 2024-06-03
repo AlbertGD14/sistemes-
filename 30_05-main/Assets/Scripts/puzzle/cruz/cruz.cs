@@ -78,6 +78,7 @@ public class cruz : MonoBehaviour
                 transform.position = specificPosition.position;
                 transform.rotation = specificPosition.rotation;
                 gameObject.tag = newTag;
+
                 audioSource.clip = dropSound;
                 audioSource.Play();
                 placed = true;

@@ -12,6 +12,7 @@ TagManager:
   - TriggerNextScene
   - Character
   - Mummy
+  - placed
   layers:
   - Default
   - TransparentFX

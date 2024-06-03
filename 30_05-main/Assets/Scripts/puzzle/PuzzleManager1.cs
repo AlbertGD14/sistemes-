@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PuzzleManager1 : MonoBehaviour
 {
@@ -76,16 +77,36 @@ public class PuzzleManager1 : MonoBehaviour
     // Check for the number of GameObjects tagged as "plat"
     void CheckForFinalSound()
     {
-        if (!finalSoundPlayed && GameObject.FindGameObjectsWithTag("plat").Length == 6)
+        int platCount = GameObject.FindGameObjectsWithTag("placed").Length;
+        if (!finalSoundPlayed && platCount == 5)
         {
-            // Stop background sound
             audioSource.Stop();
 
-            // Play final sound
             PlayFinalSound();
 
-            // Set flag to prevent playing final sound again
             finalSoundPlayed = true;
+
+            StartCoroutine(WaitForFinalSoundToEnd());
+        }
+    }
+
+    private IEnumerator WaitForFinalSoundToEnd()
+    {
+
+        while (audioSource.isPlaying)
+        {
+            yield return null;
+        }
+
+        changeScene();
+    }
+
+    void changeScene()
+    {
+        if(finalSoundPlayed)
+        {
+            SceneManager.UnloadSceneAsync("Puzzle");
+            SceneManager.LoadScene("Mummy_Scene", LoadSceneMode.Additive);
         }
     }
 }

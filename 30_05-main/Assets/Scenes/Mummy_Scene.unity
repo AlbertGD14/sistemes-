@@ -3487,7 +3487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2131532301fac0d43951a87763e70acd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 7
   firstFootstepClip: {fileID: 8300000, guid: fa94f17a9ed52044f884a495a2bd57e7, type: 3}
   secondFootstepClip: {fileID: 8300000, guid: fa94f17a9ed52044f884a495a2bd57e7, type: 3}
 --- !u!1 &1726140195
